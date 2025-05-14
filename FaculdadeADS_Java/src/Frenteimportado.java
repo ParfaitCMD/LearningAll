@@ -11,15 +11,15 @@ public class Frenteimportado {
         System.out.println("3 - México (Frete: R$ 50,00)");
         System.out.println("4 - Argentina (Frete: R$ 27,35)");
         System.out.println("5 - China (Frete: R$ 80,00)");
-        
+
         // Entrada do valor do produto
         System.out.print("Digite o valor do produto: R$ ");
         double valorProduto = scanner.nextDouble();
-        
+
         // Entrada da escolha do país
         System.out.print("Digite o número correspondente ao país: ");
         int opcao = scanner.nextInt();
-        
+
         double frete = 0;
         String pais = "";
 
