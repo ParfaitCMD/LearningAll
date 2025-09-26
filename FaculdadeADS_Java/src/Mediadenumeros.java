@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Mediadenumeros {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +19,6 @@ public class Mediadenumeros {
         System.out.printf("A média das notas é: %.2f", media);
 
         scanner.close();
-        
+
     }
 }

@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class SucessorAntecessor {
-    
+
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

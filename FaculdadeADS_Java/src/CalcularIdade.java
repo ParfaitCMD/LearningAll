@@ -2,6 +2,7 @@ import java.time.Year;
 import java.util.Scanner;
 
 public class CalcularIdade {
+        @SuppressWarnings("ConvertToTryWithResources")
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

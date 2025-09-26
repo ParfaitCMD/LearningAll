@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Numerodigitado {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,5 +15,5 @@ public class Numerodigitado {
         scanner.close();
 
     }
-    
+
 }

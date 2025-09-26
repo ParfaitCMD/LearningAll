@@ -4,7 +4,7 @@ public class ExemploDoWhile {
 
         do {
             System.out.println("Número: " + contador);
-            contador++; 
-        } while (contador <= 10); 
+            contador++;
+        } while (contador <= 10);
     }
 }

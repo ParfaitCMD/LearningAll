@@ -2,6 +2,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class PotenciaCalcular {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,5 +19,5 @@ public class PotenciaCalcular {
         scanner.close();
 
     }
-    
+
 }
